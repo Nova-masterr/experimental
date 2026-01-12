@@ -53,3 +53,22 @@ img {
   border-radius: 4px;
   font-weight: bold;
 }
+
+
+@media (max-width: 480px) {
+  .title {
+    font-size: 14px;
+  }
+
+  img {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+  }
+
+  .top-controls select,
+  .top-controls button {
+    font-size: 12px;
+    padding: 4px 6px;
+  }
+}
