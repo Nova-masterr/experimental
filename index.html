@@ -4,12 +4,14 @@
     <meta charset="UTF-8" />
     <title>Task Table</title>
     <link rel="stylesheet" href="try.css" />
+    <!-- <link rel="stylesheet" href="/src/graph.css" /> -->
   </head>
   <body>
+    <!-- <script src="https://d3js.org/d3.v7.min.js"></script> -->
     <!-- =========== TOP BAR =========== -->
     <form id="table_test_form">
       <div class="top-bar">
-        <div class="title" id="title">Progress Tracker - January, 2026</div>
+        <div class="title">January To Do Tracker, 2026</div>
 
         <div class="top-controls">
           <select id="monthSelect" , name="month">
@@ -2175,9 +2177,7 @@
             </tr>
           </table>
         </div>
-
-        <br />
-
+        <br>
         <!-- GRAPH SECTION -->
         <div class="graph-box">
           <h3>Daily Progress Graph</h3>
@@ -2185,10 +2185,9 @@
         </div>
       </div>
     </form>
-
+    <!-- <button id="signout" type="button">Sign out from Google</button> -->
     <script type="module" src="/src/firebaseconfig.js"></script>
     <script type="module" src="src/main.js"></script>
+    <!-- <script type="module" src="/src/graph.js"></script> -->
   </body>
 </html>
-
-
